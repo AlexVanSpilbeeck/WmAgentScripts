@@ -28,6 +28,7 @@ Host *cvs*.cern.ch *svn*.cern.ch
   ProxyCommand none
 
 Host *.cern.ch
+  User avanspil
   # GSSAPITrustDNS no
   ProxyCommand proxy-ssh lxplus.cern.ch /usr/bin/nc %h %p
 
