@@ -13,7 +13,7 @@ Host lxvoadm*.cern.ch lxplus*.cern.ch cmslpc*.fnal.gov
   PreferredAuthentications gssapi-with-mic,gssapi,password
   ProxyCommand none
   # GSSAPITrustDNS yes
-  User YOUR_USER
+  User avanspil
 
 Host lxvoadm*.cern.ch
   DynamicForward 47170
