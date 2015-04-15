@@ -120,7 +120,7 @@ done
 
 # Ensure kerberos token is valid.
 case $1 in
- *.cern.ch )  ensure_ticket ${principal:-$USER@CERN.CH} ;;
+ *.cern.ch )  ensure_ticket ${principal:-avanspil@CERN.CH} ;;
  *.fnal.gov ) ensure_ticket ${principal:-$USER@FNAL.GOV} ;;
  *.mit.edu )  ensure_ticket ${principal:-$USER@MIT.EDU} ;;
  * )          echo "warning: no ticket for $1" 1>&2 ;;
